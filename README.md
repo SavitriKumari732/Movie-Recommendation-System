@@ -1,55 +1,50 @@
-🎬 Movie Recommendation System
+### Movie Recommendation System
 
-Machine Learning based Movie Recommendation System that suggests movies based on user preferences using KNN and cosine similarity.
+    This is a machine learning-based movie recommendation project that I built as part of my        learning journey in ML and recommendation systems.
+    The project suggests movies based on user preferences using K-Nearest Neighbors (KNN) and       cosine similarity.
+    It helped me understand how recommendation engines work in real-world applications.
 
+### Features
 
+    Movie recommendation using KNN algorithm
+    Similar movies suggestion using cosine similarity
+    Interactive web interface using Streamlit
+    Movie posters fetched using TMDB API
+    Data visualization of rating distribution
+    
+### Tech Stack
 
-🚀 Features
+    Python
+    Pandas
+    Scikit-Learn
+    Streamlit
+    Matplotlib
+    Seaborn
+    TMDB API
 
-Movie recommendation using K-Nearest Neighbors (KNN)
+ ### Dataset
 
-Similar movies using Cosine Similarity
+    I used the MovieLens dataset for training and recommendations.
 
-Interactive Streamlit Web App
+### Files:
 
-Movie posters using TMDB API
+     movies.csv
+     ratings.csv
 
-Data visualization of rating distribution
+### How to Run
 
+#### Step 1: Install dependencies
 
-🛠 Tech Stack
+     pip install -r requirements.txt
+     
+#### Step 2: Run the application
+        
+    streamlit run movie.py
 
-Python
+### About
 
-Pandas
+    This project was created by me as a student to learn machine learning concepts and apply        them in a practical recommendation system.
 
-Scikit-Learn
-
-Streamlit
-
-Matplotlib
-
-Seaborn
-
-TMDB API
-
-
-
-📂 Dataset
-
-MovieLens Dataset
-
-Files:
-
-   movies.csv
+### Contributing
    
-   ratings.csv
-
-
-
-⚙ How to Run
-
-Install dependencies
-
-pip install -r requirements.txt
-   
+    Suggestions and improvements are always welcome.
